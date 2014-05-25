@@ -28,10 +28,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## This is a companion for the 'makeCacheMatrix' function.
-## The condition below triggers the calculation when 'm' is null 
-## (i.e. calculation not performed yet); otherwise, calculates and sets the cache
-## accordingly.
+## This is a companion for the 'makeCacheMatrix' function
+##
+## 
 
 cacheSolve <- function(x, ...) {
   
